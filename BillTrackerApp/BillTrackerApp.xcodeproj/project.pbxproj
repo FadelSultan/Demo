@@ -556,6 +556,7 @@
 				INFOPLIST_FILE = BillTrackerIntentUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BillTrackerIntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,6 +583,7 @@
 				INFOPLIST_FILE = BillTrackerIntentUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BillTrackerIntentUI;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -608,6 +610,7 @@
 				INFOPLIST_FILE = BillTrackerIntent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BillTrackerIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -634,6 +637,7 @@
 				INFOPLIST_FILE = BillTrackerIntent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BillTrackerIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

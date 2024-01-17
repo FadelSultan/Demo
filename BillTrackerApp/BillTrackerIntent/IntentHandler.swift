@@ -31,8 +31,8 @@ class BillTrackerHandler: NSObject, BillTrackerIntentHandling {
    
     func handle(intent: BillTrackerIntent, completion: @escaping (BillTrackerIntentResponse) -> Void) {
        if let title = intent.title, let price = intent.price {
-           let listSize = addBill(title: title, price: Int(truncating: price))
-           completion(BillTrackerIntentResponse.success(numberOfInvoices: NSNumber(value: listSize)))
+           let invoice = addBill(title: title, price: Int(truncating: price))
+           completion(BillTrackerIntentResponse.success(numberOfInvoices: NSNumber(value: invoice)))
        }
     }
     
